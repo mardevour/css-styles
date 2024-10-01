@@ -147,6 +147,11 @@ div[role="radio"]:hover span {
     color: var(--dracula-white) !important;
 }
 
+    /*Unlock anatlytics profile button - background*/
+.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-173mn98.r-1s2bzr4.r-1ceczpf.r-lp5zef.r-3o4zer.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21{
+    background-color: var(--dracula-purple-dark) !important
+}
+
     /* text color */
     /* new posts button */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe:not(.r-b88u0q) {
