@@ -152,6 +152,12 @@ div[role="radio"]:hover span {
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe:not(.r-b88u0q) {
     color: var(--dracula-accent) !important;
 }
+
+    /* Post button text-color*/
+.css-175oi2r.r-xoduu5{
+    color: var(--dracula-white) !important;
+}
+
     /* hashtags, time, date */
 .css-1jxf684.r-bcqeeo.r-1ttztb7.r-qvutc0.r-poiln3.r-1loqt21 {
     color: var(--dracula-accent) !important;
