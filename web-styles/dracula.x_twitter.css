@@ -158,6 +158,11 @@ div[role="radio"]:hover span {
     color: var(--dracula-white) !important;
 }
 
+    /*Subscribe to x premium button*/
+.css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe.r-b88u0q.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1777fci{
+    color: var(--dracula-white) !important
+}
+
     /* hashtags, time, date */
 .css-1jxf684.r-bcqeeo.r-1ttztb7.r-qvutc0.r-poiln3.r-1loqt21 {
     color: var(--dracula-accent) !important;
