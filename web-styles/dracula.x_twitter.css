@@ -161,6 +161,12 @@ div[style*="color: rgb(29, 155, 240)"] {
     color: var(--dracula-white) !important;
 }
 
+    /* Show replies text */
+.css-146c3p1.r-bcqeeo.r-1ttztb7.r-qvutc0.r-37j5jr.r-a023e6.r-rjixqe.r-16dba41.r-11f147o{
+    color: var(--dracula-accent) !important;
+}
+
+
     /* misc */
     /* verified badge (ew) THIS ALSO CHANGES THE COMMENT, BOOKMARK, SHARE ICON */
     /* COLOR ON HOVER I CAN'T MAKE THIS RIGHT HELP */
@@ -180,15 +186,5 @@ div[style*="color: rgb(29, 155, 240)"] {
 .r-z32n2g {
 	background-color: var(--dracula-grey-light) !important;
     color: var(--dracula-white) !important;
-}
-    
-
-    
-
-
-
-
-
-
-    
+}    
 }
