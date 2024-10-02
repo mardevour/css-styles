@@ -206,6 +206,10 @@ div[style*="color: rgb(29, 155, 240)"] {
 	background-color: var(--dracula-grey-light) !important;
     color: var(--dracula-white) !important;
 }
+    /* md background color */
+.r-gu4em3 {
+	background-color: var(--dracula-grey-light);
+}
     /* shadows */
 .r-qo02w8 {
 	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px, rgba(0, 0, 0, .3) 0px 0px 6px 6px;
