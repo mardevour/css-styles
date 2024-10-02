@@ -210,6 +210,14 @@ body {
     border-right: solid 2px var(--dracula-grey-light) !important;
     border-bottom: solid 2px var(--dracula-grey-light) !important;
 }
+    /* embedded post from private account */
+.css-175oi2r.r-1awozwy.r-g2wdr4.r-16cnnyw.r-1867qdf.r-1phboty.r-rs99b7.r-18u37iz.r-1wtj0ep.r-1mmae3n.r-n7gxbd {
+    border-radius: 0px !important;
+    border-top: solid 2px var(--dracula-grey-darker) !important;
+    border-left: solid 2px var(--dracula-grey-darker) !important;
+    border-right: solid 2px var(--dracula-grey-light) !important;
+    border-bottom: solid 2px var(--dracula-grey-light) !important;
+}
 .css-175oi2r.r-14gqq1x {
     border-top: solid 2px var(--dracula-grey-darker) !important;
 }
@@ -272,7 +280,7 @@ svg.r-4qtqp9.r-yyyyoo.r-dnmrzs.r-bnwqim.r-lrvibr.r-m6rgpd.r-z80fyv path {
     border-bottom: solid 2px var(--dracula-accent-dark) !important;
     
     }
-    /* text */
+    /* text */ /* REPE */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe.r-b88u0q.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1777fci {
     color: var(--dracula-grey-white) !important;
     }
@@ -403,7 +411,7 @@ div[role="radio"]:hover span {
     color: var(--dracula-white) !important;
 }
 
-    /*Subscribe to x premium button*/
+    /*Subscribe to x premium button*/ /* REPE */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe.r-b88u0q.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1777fci{
     color: var(--dracula-white) !important
     
