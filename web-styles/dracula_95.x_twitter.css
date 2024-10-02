@@ -114,8 +114,9 @@ body {
     border-right: solid 2px var(--dracula-grey-darker) !important;
     /*border-bottom: solid 2px var(--dracula-grey-darker) !important;*/
 }
+    /* comment prompt under post */
 .css-175oi2r.r-kemksi.r-1h8ys4a {
-    /*border-top: solid 2px var(--dracula-grey-light) !important;*/
+    border-top: solid 2px var(--dracula-grey-light) !important;
     border-left: solid 2px var(--dracula-grey-light) !important;
     border-right: solid 2px var(--dracula-grey-darker) !important;
     border-bottom: solid 2px var(--dracula-grey-darker) !important;
