@@ -37,8 +37,7 @@
 --dracula-accent-dark: var(--dracula-purple-dark);
 }
     
-    /* background */
-    /* body */
+    /* MAIN BORDERS AND BACKGROUNS #################################### */
 body {
   background-color: var(--dracula-grey-dark) !important;
 }
@@ -70,7 +69,8 @@ body {
 .css-175oi2r.r-42olwf.r-1phboty.r-rs99b7 {
     border: none !important;
 }
-
+    
+    /* BUTTONS ##################################################### */
     /* main buttons */
 [style*="background-color: rgb(29, 155, 240)"],
 .r-l5o3uw {
@@ -166,7 +166,7 @@ div[role="radio"]:hover span {
     background-color: var(--dracula-purple-dark) !important
 }
 
-    /* text color */
+    /* TEXTS ##################################################### */
     /* new posts button */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe:not(.r-b88u0q) {
     color: var(--dracula-accent) !important;
@@ -197,8 +197,7 @@ div[style*="color: rgb(29, 155, 240)"] {
     color: var(--dracula-accent) !important;
 }
 
-
-    /* misc */
+    /* MISC SECTION ################################################ */
     /* verified badge (ew) THIS ALSO CHANGES THE COMMENT, BOOKMARK, SHARE ICON */
     /* COLOR ON HOVER I CAN'T MAKE THIS RIGHT HELP */
 .r-1cvl2hr {
@@ -222,6 +221,15 @@ div[style*="color: rgb(29, 155, 240)"] {
 .r-gu4em3 {
 	background-color: var(--dracula-grey-light);
 }
+    /* loaging circle icon goes wwuuiiiiuu */
+    /* many of them are still blue :( */
+.css-175oi2r.r-1r8g8re.r-1acpoxo.r-17bb2tj.r-1muvv40.r-1yef0xd.r-1ldzwu0 svg circle:nth-of-type(1) {
+    stroke: var(--dracula-accent) !important;
+}
+.css-175oi2r.r-1r8g8re.r-1acpoxo.r-17bb2tj.r-1muvv40.r-1yef0xd.r-1ldzwu0 svg circle:nth-of-type(2) {
+    stroke: var(--dracula-accent) !important;
+}
+
     /* shadows */
 .r-qo02w8 {
 	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px, rgba(0, 0, 0, .3) 0px 0px 6px 6px;
