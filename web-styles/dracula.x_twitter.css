@@ -57,6 +57,10 @@ body {
 .r-1eltapf {
 	background-color: var(--dracula-grey) !important;
 }
+    /* who can comment on post thing */
+.r-rgqbpe {
+	background-color: var(--dracula-grey-light) !important;
+}
     /* section borders */
     /* do not !important this or it will affect other elements aswell */
 .css-175oi2r {
