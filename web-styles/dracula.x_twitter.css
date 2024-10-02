@@ -60,8 +60,12 @@ body {
     /* section borders */
     /* do not !important this or it will affect other elements aswell */
 .css-175oi2r {
-        border-color: var(--dracula-grey-light);
+    border-color: var(--dracula-grey-light);
     }
+    /* exception the border above */
+.css-175oi2r.r-42olwf.r-1phboty.r-rs99b7 {
+    border: none !important;
+}
 
     /* main buttons */
 [style*="background-color: rgb(29, 155, 240)"],
