@@ -4,6 +4,8 @@
 @version        1.0.0
 @description    Dark style based on the Dracula palette -> https://draculatheme.com/
 @author         Mardevoir
+
+@var          text     txt "Letter"  ''𝔻''
 ==/UserStyle== */
 
 @-moz-document domain("twitter.com"), domain("x.com") {
@@ -203,5 +205,15 @@ div[style*="color: rgb(29, 155, 240)"] {
 .r-z32n2g {
 	background-color: var(--dracula-grey-light) !important;
     color: var(--dracula-white) !important;
-}    
+}
+    /* shadows */
+.r-qo02w8 {
+	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px, rgba(0, 0, 0, .3) 0px 0px 6px 6px;
+}
+.r-19od9ir {
+	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px, rgba(0, 0, 0, .3) 0px 0px 6px 6px;
+}
+.r-1uusn97 {
+	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px, rgba(0, 0, 0, .3) 0px 0px 6px 6px;
+}
 }
