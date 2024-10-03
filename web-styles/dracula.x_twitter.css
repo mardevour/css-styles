@@ -250,6 +250,10 @@ div[style*="color: rgb(29, 155, 240)"] {
     stroke: var(--dracula-accent) !important;
 }
 
+	/* bg color on the "you qualified this note..." */
+.r-h7o7i8 {
+	background-color: var(--dracula-grey-light) !important;
+}
 	
     /* shadows */
 .r-qo02w8 {
