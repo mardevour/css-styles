@@ -92,24 +92,26 @@ svg.r-4qtqp9.r-yyyyoo.r-dnmrzs.r-bnwqim.r-lrvibr.r-m6rgpd.r-z80fyv path {
     /* translate post button */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-n6v787.r-1cwl3u0.r-16dba41.r-6koalj.r-1w6e6rj.r-14gqq1x.r-1loqt21.r-fdjqy7 {
     color: var(--dracula-accent) !important;
-    }
+}
     /* "translated by ..." text */
 .css-1jxf684.r-bcqeeo.r-qvutc0.r-poiln3.r-n6v787.r-1cwl3u0.r-1loqt21.r-fdjqy7 {
     color: var(--dracula-accent) !important;
 }
-    /*follow button */
+    /*follow buttons */
 .css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-15ysp7h.r-4wgw6l.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l {
     background-color: var(--dracula-accent) !important;
-    
-    }
+}
+.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-2yi16.r-1qi8awa.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l {
+	background-color: var(--dracula-accent) !important;
+}
     /* text */
 .css-146c3p1.r-bcqeeo.r-qvutc0.r-37j5jr.r-q4m81j.r-a023e6.r-rjixqe.r-b88u0q.r-1awozwy.r-6koalj.r-18u37iz.r-16y2uox.r-1777fci {
     color: var(--dracula-grey-white) !important;
-    }
+}
     /*follow button hover */
 .css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-15ysp7h.r-4wgw6l.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l:hover {
     background-color: var(--dracula-accent-dark) !important;
-    }
+}
     /* unfollow button hover */
     /* fill (hover) */
 .r-qqmkd0 {
@@ -119,20 +121,20 @@ svg.r-4qtqp9.r-yyyyoo.r-dnmrzs.r-bnwqim.r-lrvibr.r-m6rgpd.r-z80fyv path {
     /* text (hover) THIS ALSO AFFECTS OTHER TEXTS */
 div.css-146c3p1.r-bcqeeo:hover span {
         color: var(--dracula-white) !important; 
-    }
+}
     /* interactions buttons */
     /* comment, bookmark, and share hover background */
 .r-1peqgm7 {
     background-color: var(--dracula-pink-trans) !important;
-    }
+}
     /* fav / like hover background */
 .r-1krxqcr {
     background-color: var(--dracula-red-trans) !important;
-    }
+}
     /* retweet / repost hover background */
 .r-15azkrj {
     background-color: var(--dracula-green-trans) !important;
-    }
+}
     /* retweet / repost button active (repsoted post) */
 path[d="M4.75 3.79l4.603 4.3-1.706 1.82L6 8.38v7.37c0 .97.784 1.75 1.75 1.75H13V20H7.75c-2.347 0-4.25-1.9-4.25-4.25V8.38L1.853 9.91.147 8.09l4.603-4.3zm11.5 2.71H11V4h5.25c2.347 0 4.25 1.9 4.25 4.25v7.37l1.647-1.53 1.706 1.82-4.603 4.3-4.603-4.3 1.706-1.82L18 15.62V8.25c0-.97-.784-1.75-1.75-1.75z"] {
     fill: var(--dracula-green) !important;
