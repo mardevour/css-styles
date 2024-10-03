@@ -190,6 +190,11 @@ div[role="radio"]:hover span {
 .css-1jxf684.r-bcqeeo.r-1ttztb7.r-qvutc0.r-poiln3.r-1loqt21 {
     color: var(--dracula-accent) !important;
 }
+	/* username color when commenting on theis post */
+	/* this also changes the name color when showing "username reposted this" */
+.css-1jxf684.r-bcqeeo.r-1ttztb7.r-qvutc0.r-poiln3[dir="ltr"] span {
+    color: var(--dracula-accent) !important;
+}
     /* various texts */
 div[style*="color: rgb(29, 155, 240)"] {
     color: var(--dracula-white) !important;
