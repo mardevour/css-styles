@@ -5,5 +5,5 @@
 List of available styles / Lista de estilos disponibles:
 - X / Twitter Dracula
 - [wip] X / Twitter Dracula 95
-- [wip] archlinux.org Dracula 95
-- [wip] Wikipedia Dracula 95
+- [wip] archlinux.org Dracula
+- [wip] Wikipedia Dracula
