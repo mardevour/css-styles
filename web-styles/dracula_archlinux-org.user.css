@@ -1,9 +1,7 @@
 /* ==UserStyle==
 @name         Dracula theme for archlinux.org
-@namespace    https://github.com/mardevour/css-styles
 @version      0.1
-@description    Dark style based on the Dracula palette -> https://draculatheme.com/
-@author         Mardevoir
+@namespace    ?
 ==/UserStyle== */
 
 :root {
@@ -70,6 +68,12 @@
 		background-color: var(--dracula-grey) !important;
 		border-radius: 5px;
 		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	/* warnings */
+	div.archwiki-template-box.archwiki-template-box-warning {
+		background-color: #582828 !important;
+		border-radius: 5px;
+		border: solid 2px var(--dracula-red) !important;
 	}
 	/* related articles */
 	div.archwiki-template-meta-related-articles > p {
