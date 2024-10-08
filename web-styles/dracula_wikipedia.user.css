@@ -1,0 +1,68 @@
+/* ==UserStyle==
+@name           Mardevoir Wikipedia
+@namespace      github.com/openstyles/stylus
+@version        0.1
+@description    Wikipedia theme based on Dracula palette
+@author         Mardevoir
+==/UserStyle== */
+
+@-moz-document domain("wikipedia.org") {
+    /* Inserte el código aquí... */
+}
+
+:root {
+
+--grey: #282a36;
+--grey-dark: #1a1b23;
+--grey-light: #44475A;
+--blue: #6272A4;
+--purple: #BD93F9;
+--purple-dark: #835eb7;
+--pink: #FF79C6;
+--pink-dark: #da5da6;
+    
+--darkreader-bg--background-color-base: var(--grey-dark) !important;
+    
+--darkreader-text--color-progressive: var(--purple) !important;
+--darkreader-text--color-progressive--hover: var(--purple-dark) !important;
+--darkreader-text--color-progressive--active: var(--blue) !important;
+    
+--darkreader-text--color-destructive: var(--pink) !important;
+--darkreader-text--color-destructive--hover: var(--pink-dark) !important;
+    
+--darkreader-bg--color-progressive: var(--blue) !important;
+    
+}
+
+th {
+    background-color: var(--purple) !important;
+    border-radius: 4px;
+}
+
+th[scope="row"] {
+    background-color: var(--grey-light) !important;
+    border-radius: 3px;
+}
+
+.infobox_v2, .infobox {
+	border: solid 2px  var(--purple) !important;
+	background-color: var(--grey) !important;
+}
+
+figure[typeof~="mw:File/Thumb"] {
+	background-color: var(--grey) !important;
+    border-top: solid 2px  var(--purple) !important;
+    border-left: solid 2px  var(--purple) !important;
+    border-right: solid 2px  var(--purple) !important;
+}
+figure[typeof~="mw:File/Thumb"] > figcaption {
+	background-color: var(--grey) !important;
+    border-left: solid 2px  var(--purple) !important;
+    border-right: solid 2px  var(--purple) !important;
+    border-bottom: solid 2px  var(--purple) !important;
+}
+
+
+
+
+
