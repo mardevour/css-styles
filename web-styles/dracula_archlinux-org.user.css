@@ -1,0 +1,202 @@
+/* ==UserStyle==
+@name         Dracula theme for archlinux.org
+@namespace    https://github.com/mardevour/css-styles
+@version      0.1
+@description    Dark style based on the Dracula palette -> https://draculatheme.com/
+@author         Mardevoir
+==/UserStyle== */
+
+:root {
+    --dracula-grey: #282a36;
+    --dracula-grey-dark: #1a1b23;
+    --dracula-grey-light: #44475A;
+    --dracula-white: #F8F8F2;
+    --dracula-blue: #6272A4;
+    --dracula-cyan: #8BE9FD;
+    --dracula-green: #50FA7B;
+    --dracula-orange: #FFB86C;
+    --dracula-pink: #FF79C6;
+    --dracula-purple: #BD93F9;
+    --dracula-red: #FF5555;
+    --dracula-yellow: #F1FA8C;
+
+    --background-color-base: var(--dracula-grey) !important;
+}
+
+@-moz-document domain("archlinux.org") {
+
+	body {
+	color: var(--dracula-white) !important;
+	}
+	
+    /* backgrounds */
+
+    /* header */
+    #archnavbar {
+        background: var(--dracula-grey-dark) !important;
+        border-bottom: solid 5px var(--dracula-purple) !important;
+    }
+    body.skin-vector div.mw-page-container {
+        background-color: var(--dracula-grey) !important;
+    }
+	#content {
+		background: var(--dracula-grey-dark) !important;
+		border-radius: 8px;
+		border: 2px solid var(--dracula-grey-light) !important;
+	}
+	/* contents list on left */
+    .vector-pinned-container {
+        background-color: var(--dracula-grey-dark) !important;
+		border-radius: 8px;
+		border: solid 2px var(--dracula-grey-light) !important;
+    }
+	/* hide button of the element above (contents list on left) */
+	.vector-pinnable-header-toggle-button {
+		margin-top: 5px;
+		background-color: var(--dracula-grey) !important;
+		color: var(--dracula-white) !important;
+	}
+	/* dropdown menu content */
+	.vector-dropdown .vector-dropdown-content {
+		background-color: var(--dracula-grey) !important;
+		border-radius: 0px 0px 5px 5px;
+		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	.vector-pinnable-header-toggle-button:hover {
+		background-color: var(--dracula-grey-light) !important;
+	}
+	/* notes */
+	div.archwiki-template-box.archwiki-template-box-note {
+		background-color: var(--dracula-grey) !important;
+		border-radius: 5px;
+		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	/* related articles */
+	div.archwiki-template-meta-related-articles > p {
+		background: var(--dracula-grey) !important;
+		border-radius: 5px 5px 0px 0px;
+		border-bottom: solid 5px var(--dracula-purple) !important;
+	}
+	div.archwiki-template-meta-related-articles {
+		border-radius: 8px;
+		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	/* code format text */
+	.mw-parser-output pre:not([class*="CodeMirror"]),
+	.mw-parser-output code, .mw-parser-output tt {
+		border-radius: 3px;
+		background-color: var(--dracula-grey) !important;
+		font-family: monospace,monospace;
+	}
+	/* template message */
+	div.archwiki-template-message {
+		background-color: var(--dracula-grey) !important;
+		border-radius: 5px;
+		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	.mw-parser-output pre:not([class*="CodeMirror"]),
+	.mw-parser-output code, .mw-parser-output tt {
+		border-color: var(--dracula-grey-light) !important;
+		border-radius: 5px;
+	}
+	/* catlinks */
+	.catlinks {
+		background-color: var(--dracula-grey) !important;
+		border-radius: 5px;
+		border: solid 2px var(--dracula-grey-light) !important;
+	}
+	
+
+	/* search box */
+	.cdx-text-input__input:enabled:focus ~ .cdx-text-input__icon-vue,
+	.cdx-text-input__input:enabled.cdx-text-input__input--has-value ~
+	.cdx-text-input__icon-vue {
+		color: var(--dracula-purple) !important;
+	}
+    .cdx-text-input__input:enabled {
+		border: solid 2px var(--dracula-grey-light) !important;
+		
+        background-color: var(--dracula-grey-dark) !important;
+        color: var(--dracula-white) !important;
+        border-color: var(--dracula-grey-light) !important;
+    }
+    .cdx-search-input__end-button.cdx-button {
+		border: solid 2px var(--dracula-grey-light) !important;
+		
+        background-color: var(--dracula-grey-dark) !important;
+        color: var(--dracula-white) !important;
+        border-color: var(--dracula-grey-light) !important;
+    }
+	
+	/* texts */
+	
+	/* accent color text */
+	#content a:not([role="button"]):not(.new),
+	header.mw-header li:not(.new) a:not([role="button"]):not(.new),
+	#mw-panel-toc a:not([role="button"]):not(.new),
+	#mw-navigation li:not(.new) a:not([role="button"]):not(.new),
+	#mw-panel li:not(.new) a:not([role="button"]):not(.new),
+	#footer a:not([role="button"]):not(.new) {
+		text-decoration: none;
+		color: var(--dracula-purple) !important;
+	}
+	/* accent color hover */
+	#content a:not([role="button"]):not(.new):hover,
+	header.mw-header li:not(.new) a:not([role="button"]):not(.new):hover,
+	#mw-panel-toc a:not([role="button"]):not(.new):hover,
+	#mw-navigation li:not(.new) a:not([role="button"]):not(.new):hover,
+	#mw-panel li:not(.new) a:not([role="button"]):not(.new):hover,
+	#footer a:not([role="button"]):not(.new):hover {
+		text-decoration: none;
+		color: var(--dracula-pink) !important;
+	}
+	/* trasnlate text */
+	.cdx-button:enabled.cdx-button--action-progressive,
+	.cdx-button.cdx-button--fake-button--enabled.cdx-button--action-progressive {
+		color: var(--dracula-purple) !important;
+		border-radius: 5px;
+		border-color: var(--dracula-grey-light) !important;
+	}
+	/* section number */
+	h2 > .mw-headline::before,
+	h3 > .mw-headline::before,
+	h4 > .mw-headline::before,
+	h5 > .mw-headline::before,
+	h6 > .mw-headline::before {
+		color: var(--dracula-pink) !important;
+		font-style: italic;
+		margin-right: 1ex;
+	}
+	body table,
+	body h1,
+	body h2,
+	body h3,
+	body h4,
+	body h5,
+	body pre,
+	body code,
+	body tt {
+	color: var(--dracula-white) !important;
+	}
+	/* footer */
+	.mw-footer li {
+		color: var(--dracula-white) !important;
+		margin: 0;
+		padding: 0.5em 0;
+		font-size: 0.75em;
+	}
+	
+	/* icons */
+	
+	.vector-icon.mw-ui-icon-wikimedia-expand,
+	.vector-icon.mw-ui-icon-wikimedia-menu,
+	.vector-dropdown:not(#p-lang-btn) {
+		filter:
+			invert(48%)
+			sepia(0%) saturate(2476%)
+			hue-rotate(946deg)
+			brightness(138%)
+			contrast(119%);
+	}
+	
+}
