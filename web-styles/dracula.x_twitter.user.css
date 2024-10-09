@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mardevoir
 @namespace      https://github.com/mardevour/css-styles
-@version        1.0.0
+@version        1.0
 @description    Dark style based on the Dracula palette -> https://draculatheme.com/
 @author         Mardevoir
 ==/UserStyle== */
@@ -263,6 +263,10 @@ div[style*="color: rgb(29, 155, 240)"] {
 .r-h7o7i8 {
 	background-color: var(--dracula-grey-light) !important;
 }
+	/* bg color on "more notes need toyr help" */
+	.css-175oi2r.r-1xfd6ze.r-6koalj.r-18u37iz.r-kzbkwu.r-1c4vpko.r-1c7gwzm.r-ttdzmv.r-13qz1uu {
+	background-color: var(--dracula-purple) !important;
+	}
 	
     /* shadows */
 .r-qo02w8 {
