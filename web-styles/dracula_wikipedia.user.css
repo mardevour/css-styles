@@ -7,8 +7,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("wikipedia.org") {
-    /* Inserte el código aquí... */
-}
 
 :root {
 
@@ -61,8 +59,7 @@ figure[typeof~="mw:File/Thumb"] > figcaption {
     border-right: solid 2px  var(--purple) !important;
     border-bottom: solid 2px  var(--purple) !important;
 }
-
-
+}
 
 
 

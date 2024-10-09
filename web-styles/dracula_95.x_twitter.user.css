@@ -6,9 +6,8 @@
 @author         Mardevoir
 ==/UserStyle== */
 
-@import url('https://github.com/grassmunk/Chicago95/blob/master/Fonts/vga_font/LessPerfectDOSVGA.ttf');
-
 @-moz-document domain("twitter.com"), domain("x.com") {
+@import url('https://github.com/grassmunk/Chicago95/blob/master/Fonts/vga_font/LessPerfectDOSVGA.ttf');
 
 :root {
         

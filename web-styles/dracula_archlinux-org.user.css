@@ -6,7 +6,9 @@
 @author         Mardevoir
 ==/UserStyle== */
 
-:root {
+@-moz-document domain("archlinux.org") {
+
+    :root {
     --dracula-grey: #282a36;
     --dracula-grey-dark: #1a1b23;
     --dracula-grey-light: #44475A;
@@ -22,8 +24,6 @@
 
     --background-color-base: var(--dracula-grey) !important;
 }
-
-@-moz-document domain("archlinux.org") {
 
 	body {
 	color: var(--dracula-white) !important;
