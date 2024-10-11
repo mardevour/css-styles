@@ -6,7 +6,7 @@
 @author         Mardevoir
 ==/UserStyle== */
 
-@-moz-document domain("mastodon.social") { /* <-- PUT HERE YOUT INSTANCE DOMAIN */
+@-moz-document domain("shrimply.social") { /* <-- PUT HERE YOUT INSTANCE DOMAIN */
 	
 	html {
 		--dracula-grey: #282a36;
@@ -32,9 +32,13 @@
 		--background-border-color: var(--dracula-grey-light) !important;
 	}
 	
-    	body {
+    body {
 		background: var(--dracula-grey-dark);
 		color: var(--dracula-white);
+	}
+	
+	.column-header {
+		border-radius: 8px 8px 0 0;
 	}
 	
 	.compose-form__highlightable {
