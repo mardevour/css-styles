@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Mardevoir
 @namespace      https://github.com/mardevour/css-styles
-@version        1.0
+@version        1.0.0
 @description    Dark style based on the Dracula palette -> https://draculatheme.com/
 @author         Mardevoir
 ==/UserStyle== */
@@ -25,6 +25,7 @@
 --dracula-pink-trans: rgba(255, 121, 198, 0.1);
 --dracula-pink-dark: #aa4e83;
 --dracula-purple: #BD93F9;
+--dracula-purple-dark: #835eb7;
 --dracula-red: #FF5555;
 --dracula-red-trans: rgba(255, 85, 85, 0.1);
 --dracula-yellow: #F1FA8C;
@@ -81,10 +82,16 @@ body {
 svg.r-4qtqp9.r-yyyyoo.r-dnmrzs.r-bnwqim.r-lrvibr.r-m6rgpd.r-z80fyv path {
     fill: var(--dracula-accent);
 }
-    /* post button */
-.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-19yznuf.r-64el8z.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21 svg {
+    /* post button !!! */
+/*.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-19yznuf.r-64el8z.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21 svg {
     color: var(--dracula-white) !important;
-}
+}*/
+	/*.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-19yznuf.r-64el8z.r-o7ynqc.r-6416eg.r-lvtznih.r-1ny4l3l.r-1loqt21*/
+	
+	/*.css-175oi2r[data-testid="SideNav_NewTweet_Button"] {
+		background-color: red !important;
+	}*/
+	
 .css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-16y2uox.r-6gpygo.r-1udh08x.r-1udbk01.r-3s2u2q.r-peo1c.r-1ps3wis.r-cxgwc0.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l[data-testid="confirmationSheetConfirm"] {
 	background-color: var(--dracula-accent) !important;
 }
@@ -100,10 +107,12 @@ svg.r-4qtqp9.r-yyyyoo.r-dnmrzs.r-bnwqim.r-lrvibr.r-m6rgpd.r-z80fyv path {
 .css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-15ysp7h.r-4wgw6l.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l {
     background-color: var(--dracula-accent) !important;
 }
-.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-2yi16.r-1qi8awa.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l[aria-describedby="id__w3jsv60rib"] {
+	/*[aria-describedby="id__w3jsv60rib"]*/
+.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-2yi16.r-1qi8awa.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l {
 	background-color: var(--dracula-accent) !important;
 }
-.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-2yi16.r-1qi8awa.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-jc7xae.r-1ny4l3l[aria-describedby="id__w3jsv60rib"] {
+	/*[aria-describedby="id__w3jsv60rib"]*/
+.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-2yi16.r-1qi8awa.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-jc7xae.r-1ny4l3l {
 	background-color: var(--dracula-accent-dark) !important;
 }
     /* text */
@@ -183,10 +192,10 @@ div[role="radio"]:hover span {
 .css-175oi2r.r-l5o3uw.r-sdzlij.r-1uusn97.r-1777fci.r-cnw61z.r-3pj75a.r-1loqt21.r-o7ynqc.r-6416eg.r-1ny4l3l {
 	color: var(--dracula-accent) !important;
 }
-    /* Post button text-color*/
-.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-19yznuf.r-64el8z.r-1fkl15p.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21{
-    color: var(--dracula-white) !important;
-}
+    /* Post button text-color 111 */
+/*.css-175oi2r.r-sdzlij.r-1phboty.r-rs99b7.r-lrvibr.r-19yznuf.r-64el8z.r-1fkl15p.r-o7ynqc.r-6416eg.r-1ny4l3l.r-1loqt21{
+    color: var(--dracula-green) !important;
+}*/
 
 
     /*Subscribe to x premium button*/
