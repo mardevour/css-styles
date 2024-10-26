@@ -40,7 +40,21 @@
 	  background: var(--dracula-grey);
 	}
 	
-	/* LOGO */	
+	/* logo */	
+	/* TF IS YOUTUBE DOING HERE */
+	#yt-ringo2-svg_yt8 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt9 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt10 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt11 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt12 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt13 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt14 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt15 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt16 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt17 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt18 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt19 g:first-of-type path:first-of-type,
+	#yt-ringo2-svg_yt20 g:first-of-type path:first-of-type,
 	#yt-ringo2-svg_yt21 g:first-of-type path:first-of-type {
 		fill: var(--dracula-accent) !important;
 	}
