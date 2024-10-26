@@ -41,8 +41,8 @@
 	}
 	
 	/* LOGO */	
-	#yt-ringo2-svg_yt18 g:first-of-type path:first-of-type {
-		fill: var(--dracula-accent);
+	#yt-ringo2-svg_yt21 g:first-of-type path:first-of-type {
+		fill: var(--dracula-accent) !important;
 	}
 	
 	/* shorts logo ??? */
