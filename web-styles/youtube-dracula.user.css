@@ -1,0 +1,90 @@
+/* ==UserStyle==
+@name           Youtube Dracula - mardevoir
+@namespace      https://github.com/mardevour/css-styles
+@version        1.0
+@description    Dark style based on the Dracula palette -> https://draculatheme.com/
+@author         Mardevoir
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+    
+	html {
+		--dracula-grey: #282a36;
+		--dracula-grey-dark: #1a1b23;
+		--dracula-grey-light: #44475A;
+		--dracula-white: #F8F8F2;
+		--dracula-blue: #6272A4;
+		--dracula-cyan: #8BE9FD;
+		--dracula-green: #50FA7B;
+		--dracula-orange: #FFB86C;
+		--dracula-pink: #FF79C6;
+		--dracula-purple: #BD93F9;
+		--dracula-purple-dark: #835eb7;
+		--dracula-purple-trans: #bd93f938;
+		--dracula-red: #FF5555;
+		--dracula-red-dark: #7d2424;
+		--dracula-yellow: #F1FA8C;
+		
+		--dracula-accent: var(--dracula-purple);
+		--dracula-accent-dark: var(--dracula-purple-dark);
+		
+		/* color overrides */
+		--yt-spec-base-background: var(--dracula-grey) !important;
+		--yt-spec-brand-background-solid: var(--dracula-grey) !important;
+		--yt-spec-general-background-c: var(--dracula-grey) !important;
+		--yt-spec-text-primary-inverse: var(--dracula-grey) !important;
+	}
+	
+	/* backgrounds */
+	#masthead {
+	  background: var(--dracula-grey);
+	}
+	
+	/* LOGO */	
+	#yt-ringo2-svg_yt18 g:first-of-type path:first-of-type {
+		fill: var(--dracula-accent);
+	}
+	
+	/* shorts logo ??? */
+	/*.yt-icon-shape.style-scope.yt-icon.yt-spec-icon-shape svg path:first-of-type {
+		fill: var(--dracula-accent);
+	} */
+
+	/* notification badge */
+	.yt-spec-icon-badge-shape--type-notification-refresh .yt-spec-icon-badge-shape__badge {
+		background-color: var(--dracula-red);
+		border-radius: 4px;
+		border: none;
+		border-right: solid 2px var(--dracula-red-dark);
+		border-bottom: solid 2px var(--dracula-red-dark);
+	}
+	
+	/* button text */
+	.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
+		color: var(--dracula-accent);
+	}
+	.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text:hover {
+		background: var(--dracula-purple-trans);	
+		border-color: transparent;
+	}
+	
+	/* progress bar */
+	.ytp-cairo-refresh-signature-moments .ytp-play-progress {
+		/* background: -webkit-gradient(linear,left top,right top,color-stop(80%,#f03),to(#ff2791)); */
+		/* background: -webkit-linear-gradient(left,#f03 80%,#ff2791 100%); */
+		background: linear-gradient(to right, var(--dracula-accent) 60%, var(--dracula-pink) 100%);
+	}
+	.ytp-cairo-refresh .ytp-swatch-background-color {
+		background-color: var(--dracula-pink);
+	}
+	
+	/* video qualiti badge */
+	.ytp-cairo-refresh .ytp-settings-button.ytp-hd-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-hdr-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-4k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-5k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-8k-quality-badge::after, .ytp-cairo-refresh .ytp-settings-button.ytp-3d-badge-grey::after, .ytp-cairo-refresh .ytp-settings-button.ytp-3d-badge::after {
+		background-color: var(--dracula-accent);
+	}
+	
+	
+	
+	
+	
+}
