@@ -4,7 +4,8 @@
 
 List of available styles / Lista de estilos disponibles:
 - X / Twitter Dracula
-- Mastodon instance Dracula
 - [wip] X / Twitter Dracula 95
+- YouTube Dracula
+- Mastodon instance Dracula
 - [wip] archlinux.org Dracula
 - [wip] Wikipedia Dracula
