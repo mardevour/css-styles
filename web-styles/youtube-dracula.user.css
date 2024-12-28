@@ -97,8 +97,8 @@
 		background-color: var(--dracula-accent);
 	}
 	
-	
-	
-	
-	
+	/* player */
+	ytd-player, #container.ytd-player {
+		box-shadow: 0px 0px 40px #000000c2;
+	}
 }
